@@ -1,0 +1,21 @@
+MOT SO MAU THAO TAC CO BAN VOI GIT
+Copy - paste nhanh text trong màn hình Git Bash vào dấu nhắc lệnh: quét chọn text, bấm tổ hợp Shift + Insert
+Delete giá trị đang quét chọn trong Git Bash: Alt + Backspace 
+Gọi tên file có spacebar: dùng cặp nháy kép - “file name”
+
++ Create a new repository on the command line
+echo "# ABC" >> README.md
+git init
+git add .
+git commit -m "first commit"
+# rename current branch cho phu hop voi default branch Github
+git branch -M main
+git remote add origin https://github.com/nmson2504/ABC.git
+# -u, hoặc --set-upstream thiết lập một upstream cho nhánh hiện tại cho thay đổi lần đầu tiên từ nhánh local của bạn lên remote repository.
+git push -u origin main
+
++ Push an existing repository from the command line
+git remote add origin https://github.com/nmson2504/ABC.git
+# rename current branch cho phu hop voi default branch Github
+git branch -M main
+git push -u origin main
