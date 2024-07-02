@@ -19,3 +19,9 @@ git remote add origin https://github.com/nmson2504/ABC.git
 # rename current branch cho phu hop voi default branch Github
 git branch -M main
 git push -u origin main
+
++ Clone repos
+Mặc định clone sẽ get data from default branch, để clone từ các branch khác:
+git clone -b xxx https://github.com/username/repository.git
+
+
